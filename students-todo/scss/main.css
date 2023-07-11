@@ -1,0 +1,72 @@
+.main__list h2 {
+  display: inline;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.main__list ul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-left: -25px;
+  width: 400px;
+}
+
+input {
+  background-color: azure;
+}
+
+button {
+  width: 70px;
+  border-radius: 15%;
+  background-color: rgb(138, 231, 220);
+  margin-top: 15px;
+  margin-left: 300px;
+  margin-bottom: 20px;
+}
+
+li {
+  flex-direction: row;
+  white-space: nowrap;
+  overflow: auto;
+  text-overflow: ellipsis;
+}
+li p {
+  width: 150px;
+  white-space: nowrap;
+  overflow: auto;
+  margin-left: 10px;
+}
+li p:nth-child(1) {
+  border: 1px solid #000;
+  background-color: red;
+}
+li p:nth-child(2) {
+  border: 1px solid #000;
+  background-color: green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin-left: -30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 1200px;
+}/*# sourceMappingURL=main.css.map */
